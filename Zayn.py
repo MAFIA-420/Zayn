@@ -112,7 +112,7 @@ for xd in range(25000):
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 
-logo=("""【﻿ＭＡＩＦＡ】
+logo=("""█▓▒­░⡷⠂MДFIД⠐⢾░▒▓█
 \33[1;37m----------------------------------------------
 →   Owner      :  ZAYN KHAN
 →   Facebook   :  Zayn Khan
